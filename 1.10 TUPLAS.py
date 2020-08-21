@@ -1,0 +1,15 @@
+# Diferentes das listas = imultáveis
+tupla = tuple()
+print(type(tupla))
+print(dir(tupla))
+print(help(tupla))
+tupla = ('um', 'dois')
+print(tupla[0])
+#tupla[0] = 'novo'
+#print(tupla[0])
+cores = ('verde', 'amarelo', 'azul', 'branco')
+print(cores[-1])
+print(cores[1:])
+print(cores.index('amarelo'))
+print(cores.count('azul'))
+print(len(cores))
